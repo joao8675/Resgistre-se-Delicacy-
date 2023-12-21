@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Cadastre-se</title>
+</head>
+<body>
+    <nav class="menu">
+        <img src="./Assets/Logo-Delicacy.png" alt="Logo delicacy">
+        <div class="link-hover">
+            <a href="#">fazer login</a>
+        </div>
+    </nav>
+    <header class="linear-box">
+        <div class="title">
+             <h1>crie seu perfil</h1>
+             <p>Preencha o formulário abaixo para criar seu Perfil e poder usufruir dos beneficios nos próximos pedidos.</p>
+        </div>
+        <div class="left-box">
+            <h2>pedido favorito e pedidos recentes!</h2>
+            <p>acesso rápido ao seu histórico</p>
+        </div>
+        <hr>
+        <div class="right-box">
+            <h2>salve seus dados de pagamento e informações pessoais</h2>
+            <p>finalize seu pedido de maneira rápida e prática</p>
+        </div>
+    </header>
+    <main>
+            <fieldset id="group">
+                <div>
+                <label for="name" id="name">Nome</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="field">
+                <label for="last_name" id="last__name">Sobrenome</label>
+                <input type="text" id="last__name" required>
+            </div>
+            </fieldset>
+            <div class="field">
+                <div>
+                <label for="email">Endereço de e-mail</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="field">
+                <label for="email">Confirmar Endereço de e-mail</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="field">
+                <label for="tel">Número de Telefone</label>
+                <input type="tel" id="tel" required>
+            </div>
+            <div class="field">
+                <label for="password">Senha</label>
+                <input type="password" id="password" required>
+            </div>
+            <div class="field">
+                <label for="confirm__password">Confirme a senha</label>
+                <input type="password" id="confirm__password" required>
+                <p>Use pelo menos 8 caracteres.</p>
+            </div>
+            <label for="day">Aniversário</label>
+            <select id="day" required>
+                <option value="day">Dia</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+            <select name="month" id="month" required>
+                <option value="month">Mês</option>
+                <option value="">Janeiro</option>
+                <option value="">Fevereiro</option>
+                <option value="">Março</option>
+                <option value="">Abril</option>
+                <option value="">Maio</option>
+                <option value="">Junho</option>
+                <option value="">Julho</option>
+                <option value="">Agosto</option>
+                <option value="">Setembro</option>
+                <option value="">Outubro</option>
+                <option value="">Novembro</option>
+                <option value="">Dezembro</option>
+            </select>
+            <select name="year" id="year" required>
+                <option value="year">Ano</option>
+                <option value="2023">2023</option>
+            </select>
+            <div class="checkbox">
+                <input type="checkbox" name="term" id="term" required>
+                <label for="term">Declaro minha ciência sobre a <a href="https://www.dominos.com.br/#!/content/privacy/" target="_blank">Política de Privacidade e dados pessoais da Domino's Pizza Brasil.</a> A Domino's Pizza Brasil poderá enviar comunicações diretas (e-mail, sms, ligações telefônicas e mensagens de aplicativo) com oportunidades de compra e promoções em curso, bem como oferecendo seus produtos e serviços. Caso deseje, a qualquer momento, não mais receber nossos comunicados, entre com contato com o canal disponibilizado em nossa Política de Uso de Dados Pessoais ou envie e-mail para <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=dpo@dominos.com.br" target="_blank">dpo@dominos.com.br.</a></label>
+            </div>
+            <button type="submit" class="button">CRIE O SEU PERFIL</button>
+            </div>
+        </form>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+<script src="./scripts.js"></script>
+</html>

@@ -3,130 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Cadastre-se</title>
+    <title>Delicacy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="menu">
-        <img src="./Assets/Logo-Delicacy.png" alt="Logo delicacy">
-        <div class="link-hover">
-            <a href="#">fazer login</a>
+    <div id="root">
+        <div id="topofpage">
+            <div class="logoimg">
+            <a href="#"><img src="./assets/Logo_para_Pizzaria_Faustino__9_-removebg-preview (1).png" alt="logo da pizzaria Delicacy"></a>
+            <ul class="firstul">
+                <li>
+                    <a href="https://www.dominos.com.br/pages/order/#!/locations/search/">Pedir minha <br> pizza </a>
+                </li>
+                <li>
+                    <a href="https://www.dominos.com.br/pages/order/#!/locations/search/">Cardápio</a>
+                </li>
+                <li>
+                    <a href="https://www.dominos.com.br/pages/order/#!/locations/search/">Promoções</a>
+                </li>
+                <li>
+                    <a href="https://www.dominos.com.br/pages/order/#!/locations/search/">Acompanhar <br> pedido</a>
+                </li>
+                <li class="ourlocate">
+                    <a href="https://www.dominos.com.br/pages/order/#!/locations/search/">Nossa <br> localidade<ion-icon name="location-sharp"></ion-icon></a>
+                </li>
+            </ul>
         </div>
-    </nav>
-    <header class="linear-box">
-        <div class="title">
-             <h1>crie seu perfil</h1>
-             <p>Preencha o formulário abaixo para criar seu Perfil e poder usufruir dos beneficios nos próximos pedidos.</p>
+    </div>
+    </div>
+    <div id="mid">
+        <div id="delivery">
+            <div class="deliverybox">
+            <hr>
+            <h1>FORMA DE ENTREGA</h1>
+            <div class="deliverylinks1">
+            <a href="https://www.dominos.com.br/pages/order/#!/locations/search/?type=Delivery">DELIVERY</a>
+            </div>
+            <span>ou</span>
+            <div class="deliverylinks2">
+            <a href="https://www.dominos.com.br/pages/order/#!/locations/search/?type=Carryout">BUSCAR NA LOJA</a>
         </div>
-        <div class="left-box">
-            <h2>pedido favorito e pedidos recentes!</h2>
-            <p>acesso rápido ao seu histórico</p>
+            <hr>
         </div>
-        <hr>
-        <div class="right-box">
-            <h2>salve seus dados de pagamento e informações pessoais</h2>
-            <p>finalize seu pedido de maneira rápida e prática</p>
         </div>
-    </header>
-    <main>
-            <fieldset id="group">
-                <div>
-                <label for="name" id="name">Nome</label>
-                <input type="text" id="name" required>
-            </div>
-            <div class="field">
-                <label for="last_name" id="last__name">Sobrenome</label>
-                <input type="text" id="last__name" required>
-            </div>
-            </fieldset>
-            <div class="field">
-                <div>
-                <label for="email">Endereço de e-mail</label>
-                <input type="email" id="email" required>
-            </div>
-            <div class="field">
-                <label for="email">Confirmar Endereço de e-mail</label>
-                <input type="email" id="email" required>
-            </div>
-            <div class="field">
-                <label for="tel">Número de Telefone</label>
-                <input type="tel" id="tel" required>
-            </div>
-            <div class="field">
-                <label for="password">Senha</label>
-                <input type="password" id="password" required>
-            </div>
-            <div class="field">
-                <label for="confirm__password">Confirme a senha</label>
-                <input type="password" id="confirm__password" required>
-                <p>Use pelo menos 8 caracteres.</p>
-            </div>
-            <label for="day">Aniversário</label>
-            <select id="day" required>
-                <option value="day">Dia</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-                <option value="11">11</option>
-                <option value="12">12</option>
-                <option value="13">13</option>
-                <option value="14">14</option>
-                <option value="15">15</option>
-                <option value="16">16</option>
-                <option value="17">17</option>
-                <option value="18">18</option>
-                <option value="19">19</option>
-                <option value="20">20</option>
-                <option value="21">21</option>
-                <option value="22">22</option>
-                <option value="23">23</option>
-                <option value="24">24</option>
-                <option value="25">25</option>
-                <option value="26">26</option>
-                <option value="27">27</option>
-                <option value="28">28</option>
-                <option value="29">29</option>
-                <option value="30">30</option>
-                <option value="31">31</option>
-            </select>
-            <select name="month" id="month" required>
-                <option value="month">Mês</option>
-                <option value="">Janeiro</option>
-                <option value="">Fevereiro</option>
-                <option value="">Março</option>
-                <option value="">Abril</option>
-                <option value="">Maio</option>
-                <option value="">Junho</option>
-                <option value="">Julho</option>
-                <option value="">Agosto</option>
-                <option value="">Setembro</option>
-                <option value="">Outubro</option>
-                <option value="">Novembro</option>
-                <option value="">Dezembro</option>
-            </select>
-            <select name="year" id="year" required>
-                <option value="year">Ano</option>
-                <option value="2023">2023</option>
-            </select>
-            <div class="checkbox">
-                <input type="checkbox" name="term" id="term" required>
-                <label for="term">Declaro minha ciência sobre a <a href="https://www.dominos.com.br/#!/content/privacy/" target="_blank">Política de Privacidade e dados pessoais da Domino's Pizza Brasil.</a> A Domino's Pizza Brasil poderá enviar comunicações diretas (e-mail, sms, ligações telefônicas e mensagens de aplicativo) com oportunidades de compra e promoções em curso, bem como oferecendo seus produtos e serviços. Caso deseje, a qualquer momento, não mais receber nossos comunicados, entre com contato com o canal disponibilizado em nossa Política de Uso de Dados Pessoais ou envie e-mail para <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=dpo@dominos.com.br" target="_blank">dpo@dominos.com.br.</a></label>
-            </div>
-            <button type="submit" class="button">CRIE O SEU PERFIL</button>
-            </div>
-        </form>
         </div>
-    </main>
-    <footer>
+        <div id="homepage">
+            <header class="imgheader">
+                <a href="https://www.dominos.com.br/pages/order/#!/locations/search/"><img src="./assets/Story promoção de halloween moderno roxo.png"></a>
+                <a href="https://www.dominos.com.br/pages/order/#!/locations/search/"><img src="./assets/instagram story com promoção de pizza para pizzaria.png"></a>
+                <a href="https://www.dominos.com.br/pages/order/#!/locations/search/"><img src="./assets/Story instagram promoção smash burguer .png"></a>
+            </header>
+        </div>
+    </div>
+    <div id="mainfooter">
+        <div class="footer">
+            <ul>
+                <li><a href="https://www.dominos.com.br/pages/international/">International |</a></li>
+                <li><a href="https://www.dominos.com.br/about-pizza/">Sobre a Pizza |</a></li>
+                <li><a href="https://www.dominos.com.br/#!/content/privacy/">Politicas de Privacidade |</a></li>
+                <li><a href="https://franquias.dominos.com.br/seja-um-franqueado">Seja um Franqueado |</a></li>
+                <li><a href="https://atendimentodominos.zendesk.com/hc/pt-br">Fale Conosco |</a></li>
+                <li><a href="https://order.dominos.com.br/termos-de-uso">Termos de Uso |</a></li>
+            </ul>
+            <div class="promos">
+                <ul>
+                    <li><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a><ion-icon name="logo-tiktok"></ion-icon></a></li>
+                    <li><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href=""><ion-icon name="logo-youtube"></ion-icon></a></li>
+                </ul>
+                </div>
+                <div class="footerlegal">
+                    <div class="firsttxt">
+                        <p>Serviço disponível nas áreas de entrega Domino´s Pizza, todos os dias, de acordo com o horário de funcionamento de cada loja. A Domino´s Pizza Brasil se reserva no direito de alterar ou encerrar as ofertas sem aviso prévio. Todas as promoções expostas não são cumulativas entre si ou com outras promoções e descontos. Cobramos taxa de entrega. Todos os nossos produtos CONTÉM GLÚTEN. Alérgicos: todos os nossos produtos contém ou podem conter traços de Trigo, Ovos, Leite e Soja. As formas de pagamento variam de acordo com cada loja. Imagens meramente ilustrativas. Consulte se sua loja de preferência pratica a promoção escolhida Em caso de dúvidas, consulte nosso SAC: <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=relacionamento@dominos.com.br">relacionamento@dominos.com.br.</a>
 
-    </footer>
+                            *Preços "a partir de" podem sofrer pequenas variações de acordo com a região da loja. Confirme o preço no carrinho de compras antes de confirmar seu pedido.
+                            
+                            DOMINO´S PIZZA BRASIL, Av. das Américas, 500 - Bloco 7 – 3º andar – Barra da Tijuca, Rio de Janeiro/RJ - 22640-100
+                        </p>
+                        <p>
+                            S.A.C: Dúvidas, reclamações, sugestões e / ou elogios envie um e-mail para: <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=relacionamento@dominos.com.br">relacionamento@dominos.com.br</a>
+                        </p>
+                        <p>
+                            Informações sobre o uso de dados pessoais e pedidos de descadastro do banco de dados, <a href="https://atendimentodominos.zendesk.com/hc/pt-br/requests/new" target="_blank">clique aqui</a> - Encarregado de Dados.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
-<script src="./scripts.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </html>
